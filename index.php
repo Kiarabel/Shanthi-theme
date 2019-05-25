@@ -63,7 +63,7 @@
 
                 <section class="col-md-6 video">
                     <video width="500" controls>
-                        <source src="images/ShanthiVideo.mp4" type="video/mp4">
+                        <source src="http://localhost:8080/shanthi-wordpress/wp-content/themes/shanthi-theme/images/ShanthiVideo.mp4" type="video/mp4">
                     </video>
 
                 </section>
