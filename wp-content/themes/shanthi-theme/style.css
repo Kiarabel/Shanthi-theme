@@ -1,0 +1,243 @@
+/*   
+Theme Name: Shanthi's Wordpress Site
+Theme URI: https://shanthifielding.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: https://shanthifielding.com
+Version: 1
+*/ 
+
+
+/*index*/
+
+body {
+    background-color: #fff;
+}
+
+.navbar {
+    font-size: 1em;
+    margin-bottom: 0px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    height: 72px;
+    width: auto;
+}
+
+.nav {
+    padding-left: 0px;
+}
+
+.navbar-toggle {
+    background-color: #fff8ff;
+    border: none;
+    margin-top: 15px;
+    color: black;
+    font-size: 12em;
+    }
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width:22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #884b9b;
+}
+
+.navbar-brand {
+    width: 108px;
+    height: 72;
+    padding: 0px;
+}
+
+a {
+    color: #884b9b;
+}
+
+.navbar a:hover {
+    color: #884b9b;
+}
+
+.herobg {
+    height: 662px;
+    background: url("images/head.jpg") no-repeat center center;
+    /*    max-width: 1412px;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    margin-top: 0;
+}
+
+.h12 {
+    /*    float: left;*/
+    font-family: 'Lora';
+    font-size: 5em;
+    color: #884b9b;
+    margin-top: 15%;
+    padding-left: 0px;
+    /*    margin-right: 1200px;*/
+    padding-bottom: 20px;
+    width: 55%;
+}
+
+.btn-shop {
+    border: none;
+    color: white;
+    background-color: #e88d32;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    padding: 20px;
+
+}
+
+.get-to-know {
+    text-align: right;
+    background-image: url(images/gettoknow.jpg);
+    padding-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*    width: 1412px;*/
+}
+
+.gettoknow-title {
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gettoknow-body {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+.btn-about {
+    border: none;
+    color: white;
+    background-color: #e88d32;
+    float: right;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.handmadetext {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.cardsselection {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /*    max-width: 1412px;*/
+    background-color: #fff8ff;
+}
+
+.cardstext {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /*
+    padding-left: 100px;
+    padding-right: 100px;
+*/
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-shopnow {
+    border: none;
+    color: white;
+    background-color: #e88d32;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dancing {
+    background-color: #eacce6;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    /*    max-width: 1412px;*/
+}
+
+.dancetitle {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.dancetext {
+    padding-bottom: 10px;
+}
+
+.btn-dance {
+    border: none;
+    color: white;
+    background-color: #e88d32;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.video {
+    padding-top: 30px;
+}
+
+
+/*about*/
+
+.about {
+    font-family: 'Lora', sans-serif;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+/*footer*/
+
+.footerbg {
+    background-color: #4c1647;
+    color: white;
+    padding-top: 30px;
+}
+
+.terms {
+    text-align: right;
+}
+
+
+/*shop*/
+
+.secondnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+
+}
+
+li {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.celebration {
+     font-family: 'Lora', sans-serif;
+}
