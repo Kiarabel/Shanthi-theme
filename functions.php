@@ -7,3 +7,19 @@ wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap
 }
  
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
+?>
+
+
+<?php
+
+function register_my_menu() {
+  register_nav_menu('menu-header',__( 'Menu Header' ));
+}
+add_action( 'init', 'register_my_menu' )
+
+?>
+    
+    
+<?php // Register custom navigation walker
+   require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+?>

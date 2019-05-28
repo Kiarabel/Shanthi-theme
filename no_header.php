@@ -79,10 +79,4 @@ wp_nav_menu( array(
         </div>
     </nav>
 
-    <header class="container-fluid herobg">
-        <div class="container">
-            <h1 class="h12">From one loving hand to another</h1>
-            <button type="button" class="btn-shop"> Shop for Cards</button>
-        </div>
-    </header>
 
