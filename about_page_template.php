@@ -15,13 +15,11 @@ Template Name: About
 <div class="post single-page">
 		<h3 class="posttitle" id="post-<?php the_ID(); ?>"><?php the_title(); ?></h3>
 
-		<div class="postcontent">
-			<?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
-			<?php the_content(); ?>
-		<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong>', 'after' => '</p>')); ?>
-        </div><!--postcontet-->
+	
+    <p><?php the_field('tester'); ?></p>
+
 		
-	</div><!--post class-->
+	</div>
 	
    
 <?php endwhile; ?>

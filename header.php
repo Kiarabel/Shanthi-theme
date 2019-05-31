@@ -35,7 +35,7 @@
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
- 
+    
     <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -81,7 +81,8 @@ wp_nav_menu( array(
 
     <header class="container-fluid herobg">
         <div class="container">
-            <h1 class="h12">From one loving hand to another</h1>
+             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('main_tag') ) : 
+endif; ?>
             <button type="button" class="btn-shop"> Shop for Cards</button>
         </div>
     </header>

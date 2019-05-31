@@ -23,3 +23,53 @@ add_action( 'init', 'register_my_menu' )
 <?php // Register custom navigation walker
    require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 ?>
+
+<?php
+function tagline() {
+
+	register_sidebar( array(
+		'name'          => 'main tagline',
+		'id'            => 'main_tag',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'tagline' );
+?>
+
+<?php
+function gettoknow() {
+
+	register_sidebar( array(
+		'name'          => 'get to know',
+		'id'            => 'second_tag',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+
+add_action( 'widgets_init', 'gettoknow' );
+?>
+
+<?php
+function cards() {
+
+	register_sidebar( array(
+		'name'          => 'cards',
+		'id'            => 'cards_tag',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+
+add_action( 'widgets_init', 'cards' );
+?>

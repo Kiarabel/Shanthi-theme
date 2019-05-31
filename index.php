@@ -8,9 +8,10 @@
                 </div>
 
                 <section class="col-md-8 text-right">
-                    <h2 class="gettoknow-title">Get to know Shanthi</h2>
-
-                    <p class="gettoknow-body">Shanthi is a young woman who has Downs Syndrome with lifelong medical problems. She has not let this inhibit her in anyway and has since the age of nine let her star shine by letting her abilities play a dominant role in the way she lives her life.</p>
+                   <div class="gettoknow-body">
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('second_tag') ) : 
+endif; ?>
+                    </div>
                     <button type="button" class="btn-about"> Read More
                     </button>
 
