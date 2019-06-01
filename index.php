@@ -25,8 +25,8 @@ endif; ?>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 ">
-                    <h2> Cards Selection </h2>
-                    <h3 class="handmadetext"> Handmade by Shanthi</h3>
+                   <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('cards') ) : 
+endif; ?>
                 </div>
 
                 <div class="col-sm-4">

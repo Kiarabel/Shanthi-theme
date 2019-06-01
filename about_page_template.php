@@ -7,7 +7,7 @@ Template Name: About
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
-            <section class="col-sm-12 main_text">
+            <section class="col-sm-12 text">
 <article class="excerpts">	
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   
