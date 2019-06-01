@@ -1,0 +1,87 @@
+<?php
+    /*
+    Template Name: Home page
+
+    */
+    ?>
+
+<?php get_header(); /* Tells WordPress to include header.php */ ?>
+
+<div class="container-fluid get-to-know">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="<?php the_field('get_to_know_image'); ?>">
+            </div>
+
+            <section class="col-md-8 text-right">
+                <div class="gettoknow-body">
+                    <?php the_field('get_to_know'); ?>
+                </div>
+                <button type="button" class="btn-about"> Read More
+                </button>
+
+
+            </section>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid cardsselection">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 ">
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('cards') ) : 
+endif; ?>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="<?php the_field('cards_image_1'); ?>">
+                <p class="cardstext">
+                    <?php the_field('cards_1'); ?>
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="<?php the_field('cards_image_2'); ?>">
+                <p class=cardstext>
+                    <?php the_field('cards_2'); ?>
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="<?php the_field('cards_image_3'); ?>">
+                <p class="cardstext">
+                    <?php the_field('cards_3'); ?>
+                </p>
+            </div>
+
+            <button type="button" class="btn-shopnow"> Shop Now</button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid dancing">
+    <div class="container">
+        <div class="row">
+            <section class="col-md-6">
+                <p class="dancetext">
+                    <?php the_field('dance'); ?>
+                </p>
+                <button type="button" class="btn-dance"> Read More
+                </button>
+
+
+            </section>
+
+            <section class="col-md-6 video">
+                <video width="500" controls>
+                    <source src="http://localhost/wordpress2/wp-content/themes/shanthi-theme/images/ShanthiVideo.mp4" type="video/mp4">
+                </video>
+
+            </section>
+        </div>
+    </div>
+</div>
+
+<?php get_footer(); /* Tells WordPress to include footer.php */ ?>
